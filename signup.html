@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="gouthaman" />
+    <meta name="description" content="this is the home page" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="tacologo.jpg" type="image/x-icon" />
+  </head>
+
+  <body style="text-align: center">
+    <form action="home.html" method="get">
+      <h1>Welcome to The Little Taco Shop</h1>
+      <h2>Sign Up</h2>
+      <label for="fname">First Name:</label>
+      <input
+        type="text"
+        required
+        placeholder="First Name"
+        autocomplete="on"
+      /><br /><br />
+      <label for="lname">last Name:</label>
+      <input
+        type="text"
+        required
+        placeholder="Last Name"
+        autocomplete="on"
+      /><br /><br />
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        required
+        placeholder="Username"
+        autocomplete="on"
+      /><br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        required
+        placeholder="Email Id"
+        autocomplete="on"
+      /><br /><br />
+      <label for="password">password:</label>
+      <input
+        type="password"
+        required
+        placeholder="Password"
+        autocomplete="on"
+      /><br /><br />
+      Gender:
+      <select name="Gender" id="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      <br /><br />
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="don" id="dob" required /><br /><br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+    <br /><br />
+    Already a User? <a href="signin.html">Sign In</a> <br /><br />
+    <a href="home.html">Home</a>
+  </body>
+</html>
